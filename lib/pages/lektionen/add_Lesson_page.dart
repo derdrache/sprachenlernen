@@ -21,7 +21,8 @@ class _AudiodateiAnzeigen extends StatefulWidget {
 
 class _AudiodateiAnzeigenState extends State<_AudiodateiAnzeigen>{
   bool addedAudioData = false;
-  
+
+/*
   void initState() {
     super.initState();
     if (newLeasson.audioName != null){
@@ -29,8 +30,14 @@ class _AudiodateiAnzeigenState extends State<_AudiodateiAnzeigen>{
     }
   }
 
+ */
+
   Widget build(BuildContext context) {
     var screenWidth = MediaQuery. of(context). size. width;
+
+    if (newLeasson.audioName != ""){
+      addedAudioData = true;
+    }
 
     void changeAudioDateiAnzeige(){
       setState((){

@@ -1,8 +1,5 @@
-# sprachlern_app
-
-A new Flutter application.
-
 toDo:
+- leasson => am Ende des Textes wieder auf Seite 1
 - sprachen prüfen => spanisch mangelhaft siehe Test
 
 2# Prio:
